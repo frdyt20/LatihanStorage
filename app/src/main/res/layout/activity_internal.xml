@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InternalActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_buat_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/internalCreate"/>
+
+    <Button
+        android:id="@+id/btn_ubah_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changeInternal"/>
+
+    <Button
+        android:id="@+id/btn_baca_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/readInternal"/>
+
+    <Button
+        android:id="@+id/btn_hapus_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteInternal"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:hint="@string/resultInternal"
+        android:textColorHint="#000000"
+        android:inputType="textMultiLine"/>
+</LinearLayout>

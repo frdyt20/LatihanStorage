@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Latihan Storage</string>
+    <string name="internalCreate">BUAT FILE</string>
+    <string name="changeInternal">UBAH FILE</string>
+    <string name="readInternal">BACA FILE</string>
+    <string name="deleteInternal">HAPUS FILE</string>
+    <string name="resultInternal">Hasil Baca File</string>
+    <string name="titleMain">Latihan Persistence</string>
+    <string name="internalButton">INTERNAL STORAGE</string>
+    <string name="externalButton">EXTERNAL STORAGE</string>
+    <string name="ext_act_label">External Storage</string>
+    <string name="int_act_label">Internal Storage</string>
+</resources>
